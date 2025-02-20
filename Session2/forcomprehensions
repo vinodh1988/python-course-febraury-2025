@@ -1,0 +1,13 @@
+listx=[1,3,4,34,5,34,5,10]
+
+listy=[]
+for x in listx:
+    listy.append(x**2)
+print(listy)
+
+print("---------------------------------------------")
+listy=[x**2 for x in listx]
+print(listy)
+listx=["Kiran","Ravi","Rajesh","Ramesh","Raj","Joseph"]
+listy=[x.upper() for x in listx]
+print(listy)
